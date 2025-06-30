@@ -4,7 +4,7 @@ import { Container } from 'react-bootstrap';
 import Navbar from 'react-bootstrap/Navbar';
 const NavBar = () => {
   return (
-      <Navbar  bg="primary" variant="dark" expand="lg" className="mt-4 mb-4 rounded">
+      <Navbar  bg="primary" variant="dark"  className="mt-4 mb-4 rounded">
         <Container>
           <Navbar.Brand as={NavLink} to="/">Blog.app</Navbar.Brand>
           <Nav className="justify-content-end flex-grow-1 pe-3">
